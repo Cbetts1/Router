@@ -1,0 +1,12 @@
+{
+  "name": "@cbetts1/router",
+  "version": "1.0.0",
+  "description": "Universal plug-and-play router for a modular AI-native OS. Runs on Node, browser, Android, iOS, Linux, Windows, macOS.",
+  "main": "router.js",
+  "scripts": {
+    "test": "node router.test.js"
+  },
+  "keywords": ["router", "os", "ai", "universal", "plug-and-play"],
+  "author": "Mr Betts",
+  "license": "MIT"
+}
