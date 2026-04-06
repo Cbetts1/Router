@@ -1,10 +1,29 @@
 {
   "name": "@cbetts1/router",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Universal plug-and-play router for a modular AI-native OS. Runs on Node, browser, Android, iOS, Linux, Windows, macOS.",
   "main": "router.js",
+  "module": "router.mjs",
+  "types": "router.d.ts",
+  "exports": {
+    ".": {
+      "import": "./router.mjs",
+      "require": "./router.js"
+    }
+  },
+  "files": [
+    "router.js",
+    "router.mjs",
+    "router.d.ts",
+    "modules/",
+    "CHANGELOG.md"
+  ],
   "scripts": {
     "test": "node router.test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Cbetts1/Router.git"
   },
   "keywords": ["router", "os", "ai", "universal", "plug-and-play"],
   "author": "Mr Betts",
