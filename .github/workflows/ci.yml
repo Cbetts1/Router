@@ -6,6 +6,10 @@ on:
   pull_request:
     branches: ['**']
 
+# Restrict default token permissions to the minimum required.
+permissions:
+  contents: read
+
 jobs:
   # ── Run the test suite ───────────────────────────────────────────────────────
   test:
